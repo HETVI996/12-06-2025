@@ -1,0 +1,23 @@
+## Regression 
+
+Simple Linear 
+Simple Linear Regression is a supervised learning algorithm used to predict a value based on a single independent variable (feature). It finds a straight-line relationship between the input (X) and output (Y).
+
+Multiple Linear Regression
+Multiple Linear Regression is an extension of Simple Linear Regression where we use two or more independent variables (features) to predict a dependent variable (output).
+
+Polynomial Regression
+Polynomial Regression is an extension of Linear Regression, where the relationship between the independent variable (X) and the dependent variable (Y) is curved instead of a straight line.
+
+
+Support vector machine regression
+Instead of finding a decision boundary (like in classification), SVR finds a best-fit hyperplane that predicts continuous values while ignoring small errors within a margin (ε-tube).
+
+Decision Tree
+A Decision Tree is a supervised machine learning algorithm used for classification and regression tasks. It works like a flowchart, where decisions are made based on conditions (rules) at each step.
+The dataset is split into smaller groups based on questions (conditions).
+Each split leads to branches, forming a tree-like structure.
+The process continues until the best decision is reached.
+
+Random Forest Regression
+Random Forest Regression is a machine learning algorithm that belongs to the ensemble learning family. It is an extension of decision tree regression, where multiple decision trees are combined to improve accuracy and reduce overfitting
