@@ -1,0 +1,44 @@
+Classification
+
+K-NN    acuuracy- .92
+ It works by finding the "K" nearest data points (neighbors) to a given input and making predictions based on their labels.
+
+
+Logistic Regression  acuuracy- .89
+Logistic Regression is a .statistical machine learning algorithm used for binary classification (i.e., distinguishing between two classes)
+
+
+SVM (support vector machine)  acuuracy- .90
+SVM is a machine learning algorithm used to classify things into different categories. Imagine you have two types of fruit—apples and oranges—and you want a machine to separate them based on their features (like size and color).
+ It works by finding the best decision boundary (also called a hyperplane) that separates different classes in the dataset.
+
+
+Kernel SVM  acuuracy- .93
+Kernel SVM is an extension of Support Vector Machine (SVM) used for non-linearly separable data. It uses kernel functions to transform data into a higher-dimensional space, where a linear hyperplane can be used to separate the classes.
+Kernel trick
+The Kernel Trick is a technique in Machine Learning used to transform non-linearly separable data into a higher-dimensional space where it becomes linearly separable. Instead of manually mapping data to higher dimensions, the Kernel Trick computes relationships in the original space using a mathematical function (kernel), avoiding the need for explicit transformation.
+
+
+Naive Bayes    prediction - .9
+Naïve → It assumes that all features are independent of each other (which is often not true in real-world data, but works well in practice).
+Bayes → It uses Bayes' Theorem to calculate the probability of each class given the input data.
+
+
+Decision Tree Classification   prediction - .91
+A Decision Tree is like a flowchart that helps a computer make decisions by asking yes/no questions about the data.
+
+
+Random Forest  prediction - .91
+A Random Forest is a machine learning algorithm that builds many decision trees and combines their results to make a better prediction.
+CAP curve
+A Cumulative Accuracy Profile (CAP) Curve is a graph used to evaluate the performance of a classification model,It helps determine how well a model can identify important (positive) cases compared to random selection.
+
+
+ -  Navie bayes is best to use for non-linear problem
+
+
+- SVM when you want to predict to which segment your customers belong to. Segments can be any kind of segments, for example some market segments you identified earlier with clustering.
+
+- Decision Tree when you want to have clear interpretation of your model results,
+
+- Random Forest when you are just looking for high performance with less need for interpretation. 
