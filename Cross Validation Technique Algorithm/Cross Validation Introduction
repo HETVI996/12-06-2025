@@ -1,0 +1,49 @@
+Cross Validation Technique 
+
+1. Train-Test Split
+Splits data into 1 training and 1 testing set.
+
+Simple, fast.
+
+Risk of high variance depending on split.
+
+Good for quick checks, not for final evaluation.
+
+ 2. K-Fold Cross-Validation
+Split data into K equal folds.
+
+Train on K-1 folds, test on the remaining.
+
+Repeat K times, average the results.
+
+Pros: Balanced use of data for training/testing.
+
+Cons: Doesn’t preserve class distribution in imbalanced data.
+
+ 3. Stratified K-Fold
+Like K-Fold, but preserves class ratio in each fold.
+
+Best for classification tasks with imbalanced classes.
+
+Use StratifiedKFold in sklearn.
+
+ 4. Leave-One-Out Cross-Validation (LOOCV)
+Special case of K-Fold where K = number of samples.
+
+Train on all data except 1 point, test on that one.
+
+Repeat for each data point.
+
+Very accurate, but very slow for large datasets.
+
+ 5. Leave-P-Out
+Similar to LOOCV, but leave out P data points for testing.
+
+Exhaustive and computationally expensive.
+
+ 6. Repeated K-Fold
+Run K-Fold multiple times with different splits.
+
+Helps reduce variance in performance estimate.
+
+Use RepeatedKFold or RepeatedStratifiedKFold.
