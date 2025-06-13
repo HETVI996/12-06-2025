@@ -1,0 +1,19 @@
+Clustering 
+
+Clustering in Machine Learning
+Clustering is an unsupervised learning technique in machine learning that involves grouping a set of data points into clusters based on their similarities. The goal is to ensure that data points within the same cluster are more similar to each other than to those in other clusters.
+
+K  - Means
+K-Means is one of the most popular unsupervised learning algorithms used for clustering. It partitions a dataset into K clusters, where each data point belongs to the cluster with the nearest mean.
+
+To determine the optimal number of clusters K, use the Elbow Method:
+Run K-Means for different values of K
+Plot WCSS vs. K
+Look for an "elbow" point where the decrease in WCSS slows down.
+
+K - means++
+K-Means++ is an improved way to initialize the centroids in K-Means clustering. Instead of randomly choosing initial centroids (which can lead to poor clustering or slow convergence), K-Means++ strategically selects centroids to improve performance and stability.
+
+Hierachical Cluster
+Hierarchical Clustering is an unsupervised machine learning algorithm that groups data into clusters based on hierarchy. Unlike K-Means, it does not require specifying the number of clusters (K) beforehand. Instead, it builds a tree-like structure (dendrogram) to determine the best clusters.
+
